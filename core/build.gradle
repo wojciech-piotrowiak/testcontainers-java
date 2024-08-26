@@ -74,6 +74,7 @@ dependencies {
     compileOnly 'org.jetbrains:annotations:24.1.0'
     testCompileOnly 'org.jetbrains:annotations:24.1.0'
     api 'org.apache.commons:commons-compress:1.27.1'
+    
     api ('org.rnorth.duct-tape:duct-tape:1.0.8') {
         exclude(group: 'org.jetbrains', module: 'annotations')
     }
